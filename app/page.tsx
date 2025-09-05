@@ -89,7 +89,7 @@ export default function Portfolio() {
                   <div className="text-sm text-muted-foreground font-medium">Problems Solved</div>
                 </div>
                 <div className="text-center p-4 rounded-lg bg-card/50 border border-accent/10 hover-lift animate-glow animate-delay-200">
-                  <div className="text-3xl font-black text-accent animate-pulse">6+</div>
+                  <div className="text-3xl font-black text-accent animate-pulse">5+</div>
                   <div className="text-sm text-muted-foreground font-medium">Major Projects</div>
                 </div>
                 <div className="text-center p-4 rounded-lg bg-card/50 border border-primary/10 hover-lift animate-glow animate-delay-300">
@@ -156,26 +156,26 @@ export default function Portfolio() {
 
             <Card className="text-center p-6">
               <CardHeader>
-                <Cpu className="w-12 h-12 text-primary mx-auto mb-4" />
-                <CardTitle>AI & Machine Learning</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">
-                  Developed intelligent scheduling platforms using TensorFlow and Scikit-learn with genetic algorithm
-                  optimization.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="text-center p-6">
-              <CardHeader>
                 <Database className="w-12 h-12 text-primary mx-auto mb-4" />
                 <CardTitle>Full Stack Development</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Expert in Next.js, React, TypeScript, PostgreSQL, and cloud-native tools for building scalable
+                  Expert in Next.js, React, TypeScript, and cloud-native tools for building scalable
                   applications.
+                </p>
+              </CardContent>
+            </Card>
+
+             <Card className="text-center p-6">
+              <CardHeader>
+                <Cpu className="w-12 h-12 text-primary mx-auto mb-4" />
+                <CardTitle>AI & Machine Learning</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">
+                  Developed intelligent scheduling platforms using TensorFlow with genetic algorithm
+                  optimization.
                 </p>
               </CardContent>
             </Card>
@@ -219,7 +219,7 @@ export default function Portfolio() {
               </CardHeader>
               <CardContent className="space-y-6">
                 <p className="text-foreground/80 leading-relaxed text-lg">
-                  Working on full-stack development of e-Government procurement systems for African nations, focusing on
+                  Working on full-stack development of e-Government procurement systems, focusing on
                   scalable architecture, security, and user experience optimization.
                 </p>
                 <div className="grid md:grid-cols-2 gap-6">
@@ -254,7 +254,6 @@ export default function Portfolio() {
                         "TypeScript",
                         "Hono.js",
                         "PostgreSQL",
-                        "Drizzle ORM",
                         "Mantine UI",
                         "TailwindCSS",
                         "Microservices",
@@ -367,7 +366,7 @@ export default function Portfolio() {
             <div className="space-y-4">
               <h3 className="text-xl font-bold text-accent">Languages</h3>
               <div className="flex flex-wrap gap-2">
-                {["JavaScript", "Python", "Java", "C++", "PHP", "Go"].map((skill) => (
+                {["JavaScript", "Python", "Java", "Go"].map((skill) => (
                   <Badge key={skill} variant="secondary">
                     {skill}
                   </Badge>
@@ -378,7 +377,7 @@ export default function Portfolio() {
             <div className="space-y-4">
               <h3 className="text-xl font-bold text-accent">AI/ML & Tools</h3>
               <div className="flex flex-wrap gap-2">
-                {["TensorFlow", "Scikit-learn", "Git", "GitHub", "Jira"].map((skill) => (
+                {["TensorFlow", "Git", "GitHub", "Jira"].map((skill) => (
                   <Badge key={skill} variant="secondary">
                     {skill}
                   </Badge>
@@ -470,7 +469,7 @@ export default function Portfolio() {
                       AI Intelligent Scheduling Platform
                     </CardTitle>
                     <CardDescription className="text-sm">
-                      Next.js • Python • PostgreSQL • TensorFlow • Scikit-learn • Genetic Algorithm
+                      Next.js • Python • PostgreSQL • TensorFlow • Genetic Algorithm
                     </CardDescription>
                   </div>
                   <a
@@ -483,8 +482,7 @@ export default function Portfolio() {
                 </div>
               </CardHeader>
               <CardContent className="space-y-6">
-                <p className="text-foreground/80 leading-relaxed">
-                  Developed AI-powered timetable generation using Genetic Algorithm optimization. Built responsive UI
+                <p className="text-foreground/80 leading-relaxed">Built responsive UI
                   for conflict-free scheduling with teacher preferences and resource
                   constraints.
                 </p>
@@ -525,7 +523,7 @@ export default function Portfolio() {
                       Sierra Leone E-Government System
                     </CardTitle>
                     <CardDescription className="text-sm">
-                      Hono.js • PostgreSQL • Drizzle ORM • Zod • TypeScript • Mantine UI
+                      Hono.js • PostgreSQL • Zod • TypeScript • Mantine UI
                     </CardDescription>
                   </div>
                   <a href="https://segp.dev.peragosystems.com" target="_blank" rel="noopener noreferrer">
