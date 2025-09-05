@@ -55,7 +55,7 @@ export default function Portfolio() {
                 </div>
                 <p className="text-lg text-foreground/80 leading-relaxed max-w-lg animate-text-reveal">
                   Transforming ideas into scalable, user-focused applications. Passionate about solving real-world
-                  problems through clean code and innovative system design across Africa's digital transformation.
+                  problems through clean code and innovative system design.
                 </p>
               </div>
 
@@ -135,7 +135,7 @@ export default function Portfolio() {
             <h2 className="text-4xl font-black mb-4">About Me</h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
               I am a Full Stack Software Engineer with a Bachelor's degree in Software Engineering from Addis Ababa
-              University (2025). My expertise lies in building scalable, user-focused applications using modern
+              University. My expertise lies in building scalable, user-focused applications using modern
               technologies.
             </p>
           </div>
